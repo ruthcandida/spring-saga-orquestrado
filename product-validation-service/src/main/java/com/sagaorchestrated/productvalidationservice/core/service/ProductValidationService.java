@@ -108,7 +108,6 @@ public class ProductValidationService {
       .createdAt(LocalDateTime.now())
       .build();
     event.addToHistory(history);
-
   }
 
   private void handleFailCurrentNotExecuted(Event event, String message) {
